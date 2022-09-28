@@ -25,10 +25,6 @@ namespace WPF_Kuznetsov_PR2
             InitializeComponent();
         }
 
-        private void RadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            RadioButton pressed = (RadioButton)sender;
-            MessageBox.Show(pressed.Content.ToString());
-        }
+        
     }
 }
