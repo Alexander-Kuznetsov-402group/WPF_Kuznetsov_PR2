@@ -24,5 +24,12 @@ namespace WPF_Kuznetsov_PR2
         {
             InitializeComponent();
         }
+
+        private void ToggleButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton).IsChecked);
+        }
+
+       
     }
 }
