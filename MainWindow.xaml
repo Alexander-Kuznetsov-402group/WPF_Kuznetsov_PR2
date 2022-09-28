@@ -8,9 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <StackPanel x:Name="stackPanel">
-            <CheckBox x:Name="checkBox1" IsThreeState="True" IsChecked="False" Height="20" Content="Неотмечено"/>
-            <CheckBox x:Name="checkBox2" IsThreeState="True" IsChecked="True" Height="20" Content="Отмечено" />
-            <CheckBox x:Name="checkBox3" IsThreeState="True" IsChecked="{x:Null}" Height="20" Content="Неопределено"/>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot1" Checked="RadioButton_Checked">Загрузиться с жесткого диска</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot2" Checked="RadioButton_Checked">Загрузиться с DVD диска</RadioButton>
+            <RadioButton GroupName="Boot" x:Name="RadioButton_Boot3" Checked="RadioButton_Checked">Загрузиться с жесткого диска</RadioButton>
+            <RadioButton GroupName="Languages" Content="C#" IsChecked="True" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="Languages" Content="VB.NET" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="Languages" Content="C++" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="TechnoLogies"  Content="WPF" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="TechnoLogies"  Content="WinForms" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="TechnoLogies"  Content="ASP.NET" Checked="RadioButton_Checked"/>
         </StackPanel>
     </Grid>
 </Window>
