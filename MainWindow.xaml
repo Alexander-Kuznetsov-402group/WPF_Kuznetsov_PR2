@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Kuznetsov_PR2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ПР2" Height="200" Width="450">
     <Grid>
-        <Button x:Name="Button1" Content="Content" Click="Button_Click" />
+        <StackPanel>
+            <Button x:Name="button1" Padding="50 30 0 40" HorizontalContentAlignment="Left">
+                Hello World
+            </Button>
+            <Button x:Name="button2" Padding="60 20 0 30" HorizontalContentAlignment="Center">
+                Hello World
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

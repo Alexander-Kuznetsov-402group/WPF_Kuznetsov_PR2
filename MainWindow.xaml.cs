@@ -25,9 +25,5 @@ namespace WPF_Kuznetsov_PR2
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Button1.Background = Brushes.Green;
-        }
     }
 }
