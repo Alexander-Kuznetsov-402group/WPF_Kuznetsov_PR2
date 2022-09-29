@@ -7,14 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ToolBar>
-            <Button>
-            <Image Width="30" Height="25" Source="https://lh3.googleusercontent.com/wr9plNvFILNxa9N_205CSggHbknjLi19O6-dlDYItC_78_63RrqAE9Ey2BZ8oYd7at4=s180" />
-        </Button>
-        <Separator/>
-        <Button>
-            <Image Width="30" Height="25" Source="D:\unnamed.png" />
-        </Button>
-        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock Text="Сохранение документа..." />
+            <StatusBarItem HorizontalAlignment="Right" >
+                <TextBlock Text="Подключение к БД: ОК" />
+            </StatusBarItem>
+        </StatusBar>
     </Grid>
 </Window>
