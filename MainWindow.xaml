@@ -7,10 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <InkCanvas>
-            <InkCanvas.DefaultDrawingAttributes>
-                <DrawingAttributes Color="Red" Height="10" Width="1" />
-            </InkCanvas.DefaultDrawingAttributes>
-        </InkCanvas>
+        <Button x:Name="Button1" Content="Content" Click="Button_Click" />
     </Grid>
 </Window>
